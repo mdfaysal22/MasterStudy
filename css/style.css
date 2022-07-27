@@ -19,3 +19,24 @@
   outline: none !important;
   box-shadow: none !important;
 }
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#header-section .navbar-register {
+  border: 2px solid #289BDE;
+}
+#header-section .navbar-register a {
+  color: #289BDE;
+}
+#header-section .navbar-register:hover {
+  background-color: #289BDE;
+}
+#header-section .navbar-register:hover a {
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
