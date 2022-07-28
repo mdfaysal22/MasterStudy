@@ -90,11 +90,11 @@
               </div>
     </header>
     <!-- Header section Design Emd Here -->
-    
+
     <!-- Popular Course -->
     <section id="course">
       <div class="container">
-        <div class="text-center p-1 m-1 p-sm-2 m-sm-2 p-md-3 m-md-3 p-lg-5 m-lg-5">
+        <div class="text-center p-1 m-1 p-sm-2 m-sm-2 p-md-3 m-md-3 p-lg-5 m-lg-5 pb-lg-1">
           <h1>Discover Our Popular <br> Courses</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae consequuntur illum qui quisquam eius, quod reprehenderit dolor provident cupiditate suscipit?</p>
         </div>
@@ -143,7 +143,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-6 mb-4">
+            <div class="d-none d-lg-inline-block col-12 col-lg-6 mb-4">
               <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center border border-1 rounded">
                 <div class="w-100">
                   <img class="w-100" src="./img/course-1.png" alt="Course One Image">
@@ -157,7 +157,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-6 mb-4">
+            <div class="d-none d-lg-inline-block col-12 col-lg-6 mb-4">
               <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center border border-1 rounded">
                 <div class="w-100">
                   <img class="w-100" src="./img/course-1.png" alt="Course One Image">
@@ -171,7 +171,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-6 mb-4">
+            <div class="d-none d-lg-inline-block col-12 col-lg-6 mb-4">
               <div class="d-flex flex-column flex-sm-row justify-content-center align-items-center border border-1 rounded">
                 <div class="w-100">
                   <img class="w-100" src="./img/course-1.png" alt="Course One Image">
@@ -187,12 +187,98 @@
             </div>
             
           </div>
-          <button class="btn custom-btn rounded-0"><a href="#">See More Courses</a></button>
+          <button class="btn d-none d-lg-inline-block custom-btn rounded-0"><a href="#">See More Courses</a></button>
+          <button class="btn d-inline-block d-lg-none custom-btn rounded-0"><a href="#">View All</a></button>
         </div>
       </div>
     </section>
     <!-- Popular Courses End -->
     
+    <!-- Elearning Section Design Here -->
+    <section id="elearning" class="my-5">
+      <div class="container">
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center bg-light">
+          <div class="w-50 w-md-100">
+            <img class="w-100 h-100" src="./img/working.png" alt="">
+          </div>
+          <div>
+            <div class="container px-lg-5 text-center text-md-start">
+              <h1>Explore The elearning Institute</h1>
+              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure.</p>
+                <div class="d-flex justify-content-between align-items-center flex-wrap">
+                  <div>
+                    <h1>3.2K+</h1>
+                    <p>Online Course</p>
+                  </div>
+                  <div>
+                    <h1>600 +</h1>
+                    <p>Expert member</p>
+                  </div>
+                  <div>
+                    <h1>1k+</h1>
+                    <p>Rating & Review</p>
+                  </div>
+                </div>
+
+              <button class="btn custom-btn-3 rounded-0"><a href="#">Read More</a> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Elearning Section Design End -->
+    <!-- Join Section Design -->
+    <section id="join">
+      <div class="container mb-5">
+        <div class="bg-primary">
+          <div class="p-5 row text-center">
+            <div class="col-12 col-lg-7 text-lg-start">
+              <h1 class="text-light">Ready to join?</h1>
+              <p class="text-light">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <div class="col-12 col-lg-5 pt-lg-5">
+              <button type="button" class="btn d-none d-lg-inline-block btn-light rounded-0" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><a href="#">Register Now</a></button>
+              <button type="button" class="btn d-inline-block d-lg-none btn-light rounded-0" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><a href="#">Registration</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Join Section End -->
+
+
+    <!-- Modal Design Here -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered"  >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Meet Our Honourable Persions</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+              <img class="w-25 my-5" src="./img/login.svg" alt="Login">
+              <div>
+                <form action="#">
+                    <div class="text-center"><h3>Join Our Team</h3>
+                      <p>Free Registration</p></div>
+                    <div class="input-group mb-3">
+                      <input type="text" class="form-control border border-2 border-info" placeholder="Write Your Email Here." aria-label="Recipient's username" aria-describedby="button-addon2">
+                      <button class="btn btn-info" type="button" id="button-addon2"><a href="#" class="text-light">Join</a></button>
+                    </div>    
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-info text-light" disabled>Understood</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Design End -->
+
     <!-- FOnt awesome Link Here -->
     <script src="https://kit.fontawesome.com/7087213ae2.js" crossorigin="anonymous"></script>
     <!-- Link of Bootstrap JS file -->

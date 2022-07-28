@@ -18,6 +18,10 @@
 * button:focus {
   outline: none !important;
   box-shadow: none !important;
+  border: none !important;
+}
+* input:focus {
+  box-sizing: none !important;
 }
 
 /*
@@ -63,4 +67,21 @@ p {
 }
 .custom-btn-2:hover a {
   color: #fff;
+}
+
+.custom-btn-3 {
+  border: 2px solid #289BDE;
+  background-color: #289BDE;
+}
+.custom-btn-3 a {
+  color: #fff;
+  font-weight: 500;
+}
+
+.custom-btn-3:hover {
+  border: 2px solid #289BDE;
+  background: transparent;
+}
+.custom-btn-3:hover a {
+  color: #289BDE;
 }/*# sourceMappingURL=style.css.map */
