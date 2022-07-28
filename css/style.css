@@ -32,6 +32,14 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.custom-bg-info {
+  background-color: #289BDE;
+}
+
+.custom-color {
+  color: #289BDE;
+}
+
 p {
   color: #777777;
   font-size: 0.9rem !important;
