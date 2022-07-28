@@ -28,15 +28,39 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-#header-section .navbar-register {
+p {
+  color: #777777;
+  font-size: 0.9rem !important;
+}
+
+.custom-btn {
   border: 2px solid #289BDE;
 }
-#header-section .navbar-register a {
+.custom-btn a {
   color: #289BDE;
 }
-#header-section .navbar-register:hover {
+
+.custom-btn:hover {
+  background-color: #289BDE;
+  border: 2px solid #289BDE;
+}
+.custom-btn:hover a {
+  color: #fff;
+}
+
+.custom-btn-2 {
+  border: 2px solid #289BDE;
   background-color: #289BDE;
 }
-#header-section .navbar-register:hover a {
+.custom-btn-2 a {
+  color: #fff;
+  font-weight: 500;
+}
+
+.custom-btn-2:hover {
+  border: 2px solid #fff;
+  background: transparent;
+}
+.custom-btn-2:hover a {
   color: #fff;
 }/*# sourceMappingURL=style.css.map */
